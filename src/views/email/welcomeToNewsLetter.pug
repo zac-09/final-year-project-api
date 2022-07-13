@@ -1,0 +1,17 @@
+extends baseEmail
+
+block content
+  p Hi there,
+  p  Welcome to Davsafaris newsletter , you'll be receiving updates about our tours and plans for there 🎉
+  table.btn.btn-primary(role='presentation', border='0', cellpadding='0', cellspacing='0')
+    tbody
+    
+      tr
+        td(align='left')
+          table(role='presentation', border='0', cellpadding='0', cellspacing='0')
+            tbody
+              tr
+                td
+                  a(href=`${url}`, target='_blank') unsubscribe
+  p If you need any help with getting your account  setup, please don't hesitate to contact us!
+  p  support@davsafaris.com

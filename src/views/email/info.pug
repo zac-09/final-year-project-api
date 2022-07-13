@@ -1,0 +1,13 @@
+extends baseEmail
+
+block content
+  p Hi Admin,
+  p A new booking has been made: #{message}  with the following details
+  p from user: #{first_name} ,
+  p Email: #{subscriberEmail} 
+  p contact: #{contact}
+  p touristCountry: #{country} 
+  p travel plans : #{plans}
+
+   
+
